@@ -6,7 +6,7 @@ int main()
     cin>>t;
     for(int i=0;i<t;i++)
     {
-        int c=0,l=0,u=0,mid=0,f=1;
+        int c=0,l=0,u=0,mid=0,f=0;
         cin>>n;
         int a[n];
         for(int j=0;j<n;j++)
