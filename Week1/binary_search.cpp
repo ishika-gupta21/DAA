@@ -18,7 +18,7 @@ int main()
         while(l<=u)
         {
             c++;
-            mid=(u+l)/2;
+            mid=l+ (u-l)/2;
             if(a[mid]==key)
             {
                 f=1;
